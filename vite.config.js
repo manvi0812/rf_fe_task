@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/rf_fe_task/',
 });
