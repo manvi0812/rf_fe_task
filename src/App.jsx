@@ -14,9 +14,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="/form" replace />} />
-        <Route path="/form" element={<FormView />} />
-        <Route path="/list" element={<ListView />} />
+        <Route path="/rf_fe_task/" element={<Navigate to="/rf_fe_task/form" replace />} />
+        <Route path="/rf_fe_task/form" element={<FormView />} />
+        <Route path="/rf_fe_task/list" element={<ListView />} />
       </Routes>
     </Router>
   );
