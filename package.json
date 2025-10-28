@@ -2,7 +2,7 @@
   "name": "rf_fe_task",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://manvi0812.github.io/rf_fe_task/",
+  "homepage": "https://manvi0812.github.io/rf_fe_task",
   "type": "module",
   "scripts": {
     "dev": "vite",
