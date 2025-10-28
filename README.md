@@ -1,3 +1,6 @@
+**#Deployed Link** 
+https://manvi0812.github.io/rf_fe_task/form
+
 # Shipping Cost Calculator
 
 A React-based application to calculate and track shipping costs for boxes sent to different countries. The app allows users to input box details and calculates the shipping cost based on the destination country. Submitted boxes are displayed in a table with proper visualization for color and cost.
