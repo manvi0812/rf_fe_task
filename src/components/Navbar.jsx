@@ -39,7 +39,7 @@ const Navbar = (props) => {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton
-              onClick={() => navigate(item.toLocaleLowerCase())}
+              onClick={() => navigate(`rf_fe_task/${item.toLocaleLowerCase()}`)}
               sx={{ textAlign: "center" }}
             >
               <ListItemText primary={item} />
@@ -81,7 +81,7 @@ const Navbar = (props) => {
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Button
-                onClick={() => navigate(item.toLocaleLowerCase())}
+                onClick={() => navigate(`rf_fe_task/${item.toLocaleLowerCase()}`)}
                 key={item}
                 sx={{ color: "#fff" }}
               >
